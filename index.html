@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Ejercicio-JsonArray</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js "></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ejemplo: Ingresando datos a lista</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <form action=" " id="nuevo-dato">
+                    <div class="form-group">
+                        <label for="alumno">Nombres y Apellidos</label>
+                        <input type="text" class="form-control" id="alumno">
+                    </div>
+                    <div class="form-group">
+                        <label for="puntos">Promedio</label>
+                        <input type="text" class="form-control" id="puntos">
+                    </div>
+                    <input type="submit" value="Añadir alumno" />
+
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <div id="tabla-casificación">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Alumnos
+                                </th>
+                                <th>
+                                    Promedio
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="alumnos-tabla">
+
+                        </tbody>
+                    </table>
+                </div>
+                <button id="mostrar-tabla">Mostrar Promedio</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

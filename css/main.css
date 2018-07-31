@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    padding: 33px;
+}
+
+form {
+    background: #b8c3f3;
+    padding: 23px;
+    border-radius: 12px;
+}
+
+#tabla-casificación {
+    background: #babaf3c4;
+    border-radius: 12px;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    background: #8989da;
+    border-radius: 12px;
+}
